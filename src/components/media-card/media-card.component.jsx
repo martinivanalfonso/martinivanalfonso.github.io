@@ -1,48 +1,39 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 
+import styled from 'styled-components'
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth:'500px',
-    padding: '20px',
-    background: 'rgba(255,255,255,0.5)'
-  },
-  media: {
-    height: '0',
-    paddingTop: '66.8%',
-    backgroundImage: 'url(https://i.ibb.co/cF3Lbt0/crownclothing.png)',
-    backgroundSize: 'contain',
-    backgroundRepeat: 'no-repeat',
-  },
-});
+const CardContainer = styled.div`
+max-width: 500px;
+padding: 20px;
+background: rgba(255,255,255,0.8);
+`
 
-export default function MediaCard() {
-  const classes = useStyles();
+const ImageContainer = styled.div`
+height: 0px;
+padding-top: 66.8%;
+background-image:  ${({ imageUrl }) => `url(${imageUrl})`};
+background-size: contain;
+background-repeat: no-repeat;
+`
 
+export default function MediaCard({ imageUrl, title, info }) {
   return (
-    <Card className={classes.root}>
+    <CardContainer>
       <CardActionArea>
-        <div
-          className={classes.media}
-          title="Contemplative Reptile"
-        />
+        <ImageContainer imageUrl={imageUrl} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            {title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            {info}
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -54,6 +45,6 @@ export default function MediaCard() {
           See Website
         </Button>
       </CardActions>
-    </Card>
+    </CardContainer>
   );
 }
