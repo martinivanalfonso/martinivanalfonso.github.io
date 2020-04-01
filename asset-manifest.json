@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.260b7eda.chunk.css",
+    "main.js": "/Portfolio/static/js/main.ef3b3e73.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.ef3b3e73.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.92f295a4.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.92f295a4.js.map",
+    "static/js/2.2ccdd160.chunk.js": "/Portfolio/static/js/2.2ccdd160.chunk.js",
+    "static/js/2.2ccdd160.chunk.js.map": "/Portfolio/static/js/2.2ccdd160.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.5cc214c9b863e967a841fd1c49c14d5a.js": "/Portfolio/precache-manifest.5cc214c9b863e967a841fd1c49c14d5a.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.260b7eda.chunk.css.map": "/Portfolio/static/css/main.260b7eda.chunk.css.map",
+    "static/js/2.2ccdd160.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2ccdd160.chunk.js.LICENSE.txt",
+    "static/media/process_building.921df655.svg": "/Portfolio/static/media/process_building.921df655.svg",
+    "static/media/sun.fafe0d09.svg": "/Portfolio/static/media/sun.fafe0d09.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92f295a4.js",
+    "static/js/2.2ccdd160.chunk.js",
+    "static/css/main.260b7eda.chunk.css",
+    "static/js/main.ef3b3e73.chunk.js"
+  ]
+}
