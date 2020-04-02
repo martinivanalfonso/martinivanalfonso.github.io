@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons'
-import ProjectsBlock from './c./components/projects-block/projects-block.component'
+import ProjectsBlock from './components/projects-block/projects-block.component'
 import HeaderBackground from './components/header-background/header-background.component'
 
 import { ReactComponent as Sun} from './assets/sun.svg'
