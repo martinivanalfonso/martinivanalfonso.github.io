@@ -14,14 +14,16 @@ justify-items: center;
 const ProjectsBlockTwo = () => (
   <ProjectBlockTwoContainer>
     <MediaCard
-      imageUrl="https://i.ibb.co/cF3Lbt0/crownclothing.png"
-      title="Crown Clothing"
-      info="E-commerce responsive clothing shop created using React, Redux and styled-components library and configured to fetch data from a real time database."
+      imageUrl="https://i.ibb.co/LQN4hVs/monstersrolodex.png"
+      title="Monsters Rolodex"
+      info="Creative feature implementing a search functional component."
+      link="https://martinivanalfonso.github.io/MonstersRolodex/"
     />
     <MediaCard
-      imageUrl="https://i.ibb.co/N3j6DGG/myproblemcloud.png"
-      title="My Problem Cloud"
-      info="Interactive website created to store logic problems and their solution"
+      imageUrl="https://i.ibb.co/tLct13h/spu-ea68c8-ogi2-3cwn3bmfojjlb56e.jpg"
+      title="Vitality Shot"
+      info="Modern website created to introduce a product using  user friendly animation"
+      link="https://martinivanalfonso.github.io/ProductPage/"
     />
   </ProjectBlockTwoContainer>
 );

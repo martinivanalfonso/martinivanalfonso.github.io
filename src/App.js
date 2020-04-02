@@ -3,6 +3,7 @@ import './App.css';
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons'
 import ProjectsBlockOne from './components/projects-blocks/projects-block-one.component'
 import ProjectsBlockTwo from './components/projects-blocks/projects-block-two.component'
+import styled from 'styled-components'
 
 import { ReactComponent as Sun} from './assets/sun.svg'
 import { ReactComponent as ProcessBuilding} from './assets/process_building.svg'
@@ -24,6 +25,24 @@ const Green = ({ children }) => <span style={{ color: '#57EE89' }}>{children}</s
 const Blue = ({ children }) => <span style={{ color: '#57C7FF' }}>{children}</span>
 const Gray = ({ children }) => <span style={{ color: '#909090' }}>{children}</span>
 
+const IconsContainer = styled.div`
+animation: 
+    nudge 5s linear infinite alternate;
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  80% {
+    transform: translate(0, -10px);
+  }
+}
+`
+
     return(
     <Parallax ref={ ref => (this.parallax = ref)} pages={4} >
        <ParallaxLayer offset={0} speed={0}  style={{ backgroundColor: '#702632' }} />
@@ -32,10 +51,17 @@ const Gray = ({ children }) => <span style={{ color: '#909090' }}>{children}</sp
        <ParallaxLayer offset={3} speed={0}  style={{ backgroundColor: '#381460' }} />
 
        <ParallaxLayer offset={0} speed={0.3}>
+         <IconsContainer>
          <CropSquareIcon style={{ width: '40%', fontSize:'4rem', marginTop: '5%'}}/>
          <ChangeHistoryIcon style={{ width: '60%', marginLeft: '60%', fontSize:'8rem'}}/>
-         <CodeIcon style={{width: '20%', fontSize:'4rem', marginTop: `${window.innerWidth < 960 ?  '100%' : '20%' }`}}/>
+         <CodeIcon style={{width: '20%', fontSize:'4rem', marginTop: `${window.innerWidth < 960 ?  '50vh' : '20vh' }`}}/>
+         </IconsContainer>
        </ParallaxLayer>
+
+       <ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.7 }}>
+          <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '55%' }} />
+          <img src={url('cloud')} style={{ display: 'block', width: '10%', marginLeft: '15%' }} />
+        </ParallaxLayer>
 
 
        <ParallaxLayer offset={0.2} speed={0.3}  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -56,7 +82,7 @@ const Gray = ({ children }) => <span style={{ color: '#909090' }}>{children}</sp
 
 
 
-       <ParallaxLayer offset={0} speed={-0.3} onClick={() => this.parallax.scrollTo(1)} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+       <ParallaxLayer offset={0} speed={-0.2} onClick={() => this.parallax.scrollTo(1)} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <h1 style={{width: '80%'}}>Hello there!<br />I`m a front-end developer, this is my portfolio website</h1>
        </ParallaxLayer>
        <ParallaxLayer offset={1} speed={0.3} style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>

@@ -1,29 +1,53 @@
-import React from 'react';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
-import FavoriteIcon from '@material-ui/icons/Favorite';
+import React, { useRef, useEffect } from "react";
+import CardActionArea from "@material-ui/core/CardActionArea";
+import CardActions from "@material-ui/core/CardActions";
+import CardContent from "@material-ui/core/CardContent";
+import Button from "@material-ui/core/Button";
+import Typography from "@material-ui/core/Typography";
+import IconButton from "@material-ui/core/IconButton";
+import FavoriteIcon from "@material-ui/icons/Favorite";
 
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const CardContainer = styled.div`
-max-width: 500px;
-padding: 20px;
-background: rgba(255,255,255,0.8);
-`
+  max-width: 500px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media screen and (max-width: 960px) {
+    max-width: 300px;
+  }
+`;
 
 const ImageContainer = styled.div`
-height: 0px;
-padding-top: 66.8%;
-background-image:  ${({ imageUrl }) => `url(${imageUrl})`};
-background-size: contain;
-background-repeat: no-repeat;
-`
+  height: 0px;
+  padding-top: 66.8%;
+  background-image: ${({ imageUrl }) => `url(${imageUrl})`};
+  background-size: contain;
+  background-repeat: no-repeat;
+`;
 
-export default function MediaCard({ imageUrl, title, info }) {
+export default function MediaCard({ imageUrl, title, info, link }) {
+  const refLike = useRef();
+
+  useEffect(() => {
+    const { current } = refLike;
+
+    const handleClick = () => {
+      current.style.color !== "red"
+        ? (current.style.color = "red")
+        : (current.style.color = "unset");
+    };
+    current.addEventListener("click", handleClick);
+
+    return () => {
+      current.removeEventListener("click", handleClick);
+    };
+  });
+
   return (
     <CardContainer>
       <CardActionArea>
@@ -38,11 +62,11 @@ export default function MediaCard({ imageUrl, title, info }) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-      <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
+        <IconButton aria-label="add to favorites">
+          <FavoriteIcon ref={refLike} />
         </IconButton>
         <Button variant="contained" color="secondary" size="small">
-          See Website
+          <a href={link}>See Website</a>
         </Button>
       </CardActions>
     </CardContainer>
