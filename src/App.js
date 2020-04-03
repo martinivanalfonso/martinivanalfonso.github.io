@@ -2,14 +2,17 @@ import React from 'react';
 import './App.css';
 import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons'
 import ProjectsBlock from './components/projects-block/projects-block.component'
+import HeaderIcons from './components/header-icons/header-icons.component'
 import HeaderBackground from './components/header-background/header-background.component'
 
 import { ReactComponent as Sun} from './assets/sun.svg'
 import { ReactComponent as ProcessBuilding} from './assets/process_building.svg'
-import { ReactComponent as PieChart} from './assets/pie_chart.svg'
 import { ReactComponent as Mountain} from './assets/mountain.svg'
 import { ReactComponent as DataProcess} from './assets/data_process.svg'
+import { ReactComponent as DataAnalytics} from './assets/data_analytics_.svg'
 import { ReactComponent as Cloud} from './assets/cloud.svg'
+
+
 
 class App extends React.Component {
   render() {
@@ -20,8 +23,11 @@ class App extends React.Component {
        <ParallaxLayer offset={2} speed={0}  style={{ backgroundColor: '#40434E' }} />
        <ParallaxLayer offset={3} speed={0}  style={{ backgroundColor: '#381460' }} />
 
-       <ParallaxLayer offset={0} speed={0.3}>
+       <ParallaxLayer offset={0} speed={0}>
         <HeaderBackground />
+       </ParallaxLayer>
+       <ParallaxLayer offset={0} speed={0.3}>
+        <HeaderIcons />
        </ParallaxLayer>
 
        <ParallaxLayer offset={0} speed={0.8} style={{ opacity: 0.4 }}>
@@ -33,8 +39,8 @@ class App extends React.Component {
           <Cloud style={{ display: 'block', width: '10%', marginLeft: '15%' }} />
         </ParallaxLayer>
 
-       <ParallaxLayer offset={0.2} speed={0.3}  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-         <PieChart style={{ width: '20%', marginLeft: '60%'}}/>
+       <ParallaxLayer offset={0.25} speed={0.3}  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+         <DataAnalytics style={{ width: `${ window.innerWidth < 960 ? '40%' :'20%'}`, marginLeft: '60%'}}/>
        </ParallaxLayer>
        <ParallaxLayer offset={1.15} speed={0.7}  style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
          <Sun style={{ width: '20%', marginLeft: '20%'}}/>
@@ -49,8 +55,8 @@ class App extends React.Component {
          <Mountain style={{ width: '20%', marginLeft: '60%'}}/>
        </ParallaxLayer>
 
-       <ParallaxLayer offset={0} speed={-0.2} onClick={() => this.parallax.scrollTo(1)} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <h1 style={{width: '80%'}}>Hello there!<br />I`m a front-end developer, this is my portfolio website</h1>
+       <ParallaxLayer offset={0} speed={-0.2} onClick={() => this.parallax.scrollTo(1)} style={{ display: 'flex', alignItems: 'center', marginLeft: '10%' }}>
+        <h1 style={{width: `${ window.innerWidth < 960 ? '80%' :'60%'}`}}>Hello there!<br />I`m a front-end developer, this is my portfolio website</h1>
        </ParallaxLayer>
        <ParallaxLayer offset={1} speed={0.3} style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
         <h1 style={{width: '80%'}}>And these are my projects!</h1>

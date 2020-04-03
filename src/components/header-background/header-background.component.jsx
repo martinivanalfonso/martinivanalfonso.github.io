@@ -1,56 +1,17 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
 
-import CropSquareIcon from "@material-ui/icons/CropSquare";
-import ChangeHistoryIcon from "@material-ui/icons/ChangeHistory";
-import CodeIcon from "@material-ui/icons/Code";
+import styled from 'styled-components'
 
-const HeaderBackgroundContainer = styled.div`
-  animation: pulse 3s ease infinite alternate,
-    nudge 5s linear infinite alternate;
 
-  @keyframes pulse {
-    0%,
-    100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.5;
-    }
-  }
+const LinesContainer = styled.div`
+width:100%;
+height:100%;
+background-color: #702632;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23702632'/%3E%3Cstop offset='1' stop-color='%234a1921'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23e34d65' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23e34d65' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23e34d65' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23e34d65' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+`
 
-  @keyframes nudge {
-    0%,
-    100% {
-      transform: translate(0, 0);
-    }
+const HeaderBackground = () => (<LinesContainer />)
 
-    50% {
-      transform: translate(6px, 10px);
-    }
-
-    80% {
-      transform: translate(3px, -10px);
-    }
-  }
-`;
-
-const HeaderBackground = () => (
-  <HeaderBackgroundContainer>
-    <CropSquareIcon
-      style={{ width: "40%", fontSize: "4rem", marginTop: "5%" }}
-    />
-    <ChangeHistoryIcon
-      style={{ width: "60%", marginLeft: "60%", fontSize: "8rem" }}
-    />
-    <CodeIcon
-      style={{
-        width: "20%",
-        fontSize: "4rem",
-        marginTop: `${window.innerWidth < 960 ? "50vh" : "20vh"}`
-      }}
-    />
-  </HeaderBackgroundContainer>
-);
-
-export default HeaderBackground;
+export default HeaderBackground
