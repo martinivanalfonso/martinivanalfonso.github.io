@@ -12,7 +12,8 @@ import { ReactComponent as DataProcess} from './assets/data_process.svg'
 import { ReactComponent as DataAnalytics} from './assets/data_analytics_.svg'
 import { ReactComponent as Cloud} from './assets/cloud.svg'
 
-
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 class App extends React.Component {
   render() {
@@ -56,16 +57,24 @@ class App extends React.Component {
        </ParallaxLayer>
 
        <ParallaxLayer offset={0} speed={-0.2} onClick={() => this.parallax.scrollTo(1)} style={{ display: 'flex', alignItems: 'center', marginLeft: '10%' }}>
-        <h1 style={{width: `${ window.innerWidth < 960 ? '80%' :'60%'}`}}>Hello there!<br />I`m a front-end developer, this is my portfolio website</h1>
+        <h1 style={{width: `${ window.innerWidth < 960 ? '80%' :'60%'}`}}>Hello there!<br />I'm a front-end developer, this is my portfolio website</h1>
        </ParallaxLayer>
        <ParallaxLayer offset={1} speed={0.3} style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
         <h1 style={{width: '80%'}}>And these are my projects!</h1>
         <p style={{width: '80%'}}>Most of them involve Javacript, specifically ReactJS which I find quite an exciting and powerful library</p>
         <ProjectsBlock />
        </ParallaxLayer>
-       <ParallaxLayer offset={3} speed={0.3} style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+       <ParallaxLayer offset={3} speed={0.3} style={{ display: 'flex', flexDirection: 'column', paddingLeft: '10%' }}>
         <h1 style={{width: '80%'}}>Feel free to contact me here:</h1>
         <h4 style={{width: '80%'}}>martinivanalfonso@gmail.com</h4>
+        <div>
+          <a href="https://github.com/martinivanalfonso" style={{padding: '10px 0px', color: 'black'}}>
+            <GitHubIcon />
+         </a>
+          <a href="https://linkedin.com/in/martinivanalfonso" style={{padding: '10px', color: 'black'}}>
+            <LinkedInIcon />
+         </a>
+        </div>
        </ParallaxLayer>
     </Parallax>
   );
