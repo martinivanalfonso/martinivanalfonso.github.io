@@ -66,7 +66,6 @@ class App extends React.Component {
        <ParallaxLayer offset={3} speed={0.3} style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
         <h1 style={{width: '80%'}}>Feel free to contact me here:</h1>
         <h4 style={{width: '80%'}}>martinivanalfonso@gmail.com</h4>
-
        </ParallaxLayer>
     </Parallax>
   );
