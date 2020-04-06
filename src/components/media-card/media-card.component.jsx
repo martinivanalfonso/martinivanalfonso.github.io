@@ -62,8 +62,8 @@ export default function MediaCard({ imageUrl, title, info, link }) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon ref={refLike} />
+        <IconButton aria-label="add to favorites" ref={refLike}>
+          <FavoriteIcon />
         </IconButton>
         <Button variant="contained" color="secondary" size="small">
           <a href={link}>See Website</a>

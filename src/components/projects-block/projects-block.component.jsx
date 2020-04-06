@@ -18,7 +18,7 @@ const ProjectsBlockone = () => (
       imageUrl="https://i.ibb.co/cF3Lbt0/crownclothing.png"
       title="Crown Clothing"
       info="E-commerce responsive clothing shop created using React, Redux and styled-components library and configured to fetch data from a real time database."
-      link="https://martinivanalfonso.github.io/CrownClothing/"
+      link="https://crown-clothing-martinalfonso.herokuapp.com/"
     />
     <MediaCard
       imageUrl="https://i.ibb.co/BnT3cb7/activecoronavirus.jpg"
