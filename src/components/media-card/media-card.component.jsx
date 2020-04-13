@@ -39,7 +39,7 @@ export default function MediaCard({ imageUrl, title, info, link }) {
     const handleClick = () => {
       current.style.color !== "red"
         ? (current.style.color = "red")
-        : (current.style.color = "unset");
+        : (current.style.color = "rgba(0, 0, 0, 0.54)");
     };
     current.addEventListener("click", handleClick);
 

@@ -56,7 +56,7 @@ class App extends React.Component {
          <Mountain style={{ width: '20%', marginLeft: '60%'}}/>
        </ParallaxLayer>
 
-       <ParallaxLayer offset={0} speed={-0.2} onClick={() => this.parallax.scrollTo(1)} style={{ display: 'flex', alignItems: 'center', marginLeft: '10%' }}>
+       <ParallaxLayer offset={0} speed={-0.2} onClick={() => this.parallax.scrollTo(1)} style={{ display: 'flex', alignItems: 'center', marginLeft: '10%', cursor: 'pointer' }}>
         <h1 style={{width: `${ window.innerWidth < 960 ? '80%' :'60%'}`}}>Hello there!<br />I'm a front-end developer, this is my portfolio website</h1>
        </ParallaxLayer>
        <ParallaxLayer offset={1} speed={0.3} style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>

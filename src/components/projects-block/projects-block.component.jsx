@@ -17,7 +17,7 @@ const ProjectsBlockone = () => (
     <MediaCard
       imageUrl="https://i.ibb.co/cF3Lbt0/crownclothing.png"
       title="Crown Clothing"
-      info="E-commerce responsive clothing shop created using React, Redux and styled-components library and configured to fetch data from a real time database."
+      info="E-commerce responsive shop created using React, Redux, HOC and styled-components library and configured to fetch data from a real time database"
       link="https://crown-clothing-martinalfonso.herokuapp.com/"
     />
     <MediaCard
@@ -29,7 +29,7 @@ const ProjectsBlockone = () => (
     <MediaCard
       imageUrl="https://i.ibb.co/LQN4hVs/monstersrolodex.png"
       title="Monsters Rolodex"
-      info="Creative feature implementing a search functional component."
+      info="Creative feature implementing a real time search functional component."
       link="https://martinivanalfonso.github.io/MonstersRolodex/"
     />
     {window.innerWidth < 960 ? (
@@ -38,7 +38,7 @@ const ProjectsBlockone = () => (
       <MediaCard
         imageUrl="https://i.ibb.co/tLct13h/spu-ea68c8-ogi2-3cwn3bmfojjlb56e.jpg"
         title="Vitality Shot"
-        info="Modern website created to introduce a product using  user friendly animation"
+        info="Modern website created to introduce a product through user interactive animations"
         link="https://martinivanalfonso.github.io/ProductPage/"
       />
     )}
@@ -48,7 +48,7 @@ const ProjectsBlockone = () => (
       <MediaCard
         imageUrl="https://i.ibb.co/N3j6DGG/myproblemcloud.png"
         title="My Problem Cloud"
-        info="Interactive CRUD website created to store logic problems and their solution performing"
+        info="Interactive website used to store logic problems and their solution through CRUD operations"
         link="https://martinivanalfonso.github.io/MyProblemCloud/"
       />
     )}
@@ -58,7 +58,7 @@ const ProjectsBlockone = () => (
       <MediaCard
         imageUrl="https://i.ibb.co/0J2VYTf/calculatorapp.jpg"
         title="JS Calculator"
-        info="Functional calculator that allows you to perform clean basic mathematical operations "
+        info="Functional calculator that allows you to perform clean and basic mathematical operations"
         link="https://martinivanalfonso.github.io/CalculatorApp/"
       />
     )}
