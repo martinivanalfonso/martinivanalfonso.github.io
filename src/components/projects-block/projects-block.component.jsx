@@ -17,7 +17,7 @@ const ProjectsBlockone = () => (
     <MediaCard
       imageUrl="https://i.ibb.co/cF3Lbt0/crownclothing.png"
       title="Crown Clothing"
-      info="E-commerce responsive shop created using React, Redux, HOC and styled-components library and configured to fetch data from a real time database"
+      info="E-commerce responsive shop created using React, Redux, HOC, styled-components library and configured to fetch data from a real time database"
       link="https://crown-clothing-martinalfonso.herokuapp.com/"
     />
     <MediaCard
@@ -27,10 +27,10 @@ const ProjectsBlockone = () => (
       link="https://martinivanalfonso.github.io/ActiveCoronaVirus/"
     />
     <MediaCard
-      imageUrl="https://i.ibb.co/LQN4hVs/monstersrolodex.png"
-      title="Monsters Rolodex"
-      info="Creative feature implementing a real time search functional component."
-      link="https://martinivanalfonso.github.io/MonstersRolodex/"
+      imageUrl="https://i.ibb.co/sy54XYm/chatapp.png"
+      title="Chat App"
+      info="Real Time Chat implementing React router, hooks, socket.io, framer-motion and express API as backend."
+      link="https://realtimechat-app.netlify.com/"
     />
     {window.innerWidth < 960 ? (
       ""
