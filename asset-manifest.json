@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/martinivanalfonso.github.io/static/css/main.ed5e4874.chunk.css",
-    "main.js": "/martinivanalfonso.github.io/static/js/main.807820dd.chunk.js",
-    "main.js.map": "/martinivanalfonso.github.io/static/js/main.807820dd.chunk.js.map",
-    "runtime-main.js": "/martinivanalfonso.github.io/static/js/runtime-main.60adf782.js",
-    "runtime-main.js.map": "/martinivanalfonso.github.io/static/js/runtime-main.60adf782.js.map",
-    "static/js/2.b5933a04.chunk.js": "/martinivanalfonso.github.io/static/js/2.b5933a04.chunk.js",
-    "static/js/2.b5933a04.chunk.js.map": "/martinivanalfonso.github.io/static/js/2.b5933a04.chunk.js.map",
-    "index.html": "/martinivanalfonso.github.io/index.html",
-    "precache-manifest.4f850859ec795db9c87660358048260b.js": "/martinivanalfonso.github.io/precache-manifest.4f850859ec795db9c87660358048260b.js",
-    "service-worker.js": "/martinivanalfonso.github.io/service-worker.js",
-    "static/css/main.ed5e4874.chunk.css.map": "/martinivanalfonso.github.io/static/css/main.ed5e4874.chunk.css.map",
-    "static/js/2.b5933a04.chunk.js.LICENSE.txt": "/martinivanalfonso.github.io/static/js/2.b5933a04.chunk.js.LICENSE.txt",
-    "static/media/cloud.305b7b7b.svg": "/martinivanalfonso.github.io/static/media/cloud.305b7b7b.svg",
-    "static/media/data_analytics_.f9c8b127.svg": "/martinivanalfonso.github.io/static/media/data_analytics_.f9c8b127.svg",
-    "static/media/data_process.8c7ae197.svg": "/martinivanalfonso.github.io/static/media/data_process.8c7ae197.svg",
-    "static/media/mountain.54c3adc5.svg": "/martinivanalfonso.github.io/static/media/mountain.54c3adc5.svg",
-    "static/media/process_building.921df655.svg": "/martinivanalfonso.github.io/static/media/process_building.921df655.svg",
-    "static/media/sun.fafe0d09.svg": "/martinivanalfonso.github.io/static/media/sun.fafe0d09.svg"
+    "main.css": "/static/css/main.ed5e4874.chunk.css",
+    "main.js": "/static/js/main.053d9564.chunk.js",
+    "main.js.map": "/static/js/main.053d9564.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.575c1b01.js",
+    "runtime-main.js.map": "/static/js/runtime-main.575c1b01.js.map",
+    "static/js/2.4a877617.chunk.js": "/static/js/2.4a877617.chunk.js",
+    "static/js/2.4a877617.chunk.js.map": "/static/js/2.4a877617.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9eb156c5758bfad85224e09d84295e2e.js": "/precache-manifest.9eb156c5758bfad85224e09d84295e2e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ed5e4874.chunk.css.map": "/static/css/main.ed5e4874.chunk.css.map",
+    "static/js/2.4a877617.chunk.js.LICENSE.txt": "/static/js/2.4a877617.chunk.js.LICENSE.txt",
+    "static/media/cloud.305b7b7b.svg": "/static/media/cloud.305b7b7b.svg",
+    "static/media/data_analytics_.f9c8b127.svg": "/static/media/data_analytics_.f9c8b127.svg",
+    "static/media/data_process.8c7ae197.svg": "/static/media/data_process.8c7ae197.svg",
+    "static/media/mountain.54c3adc5.svg": "/static/media/mountain.54c3adc5.svg",
+    "static/media/process_building.921df655.svg": "/static/media/process_building.921df655.svg",
+    "static/media/sun.fafe0d09.svg": "/static/media/sun.fafe0d09.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.60adf782.js",
-    "static/js/2.b5933a04.chunk.js",
+    "static/js/runtime-main.575c1b01.js",
+    "static/js/2.4a877617.chunk.js",
     "static/css/main.ed5e4874.chunk.css",
-    "static/js/main.807820dd.chunk.js"
+    "static/js/main.053d9564.chunk.js"
   ]
 }
