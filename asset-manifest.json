@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ed5e4874.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d6b3c0eb.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d6b3c0eb.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.92f295a4.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.92f295a4.js.map",
-    "static/js/2.7b55b837.chunk.js": "/Portfolio/static/js/2.7b55b837.chunk.js",
-    "static/js/2.7b55b837.chunk.js.map": "/Portfolio/static/js/2.7b55b837.chunk.js.map",
-    "index.html": "/Portfolio/index.html",
-    "precache-manifest.b38bcab8e2f2403979226641b920edee.js": "/Portfolio/precache-manifest.b38bcab8e2f2403979226641b920edee.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.ed5e4874.chunk.css.map": "/Portfolio/static/css/main.ed5e4874.chunk.css.map",
-    "static/js/2.7b55b837.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.7b55b837.chunk.js.LICENSE.txt",
-    "static/media/cloud.305b7b7b.svg": "/Portfolio/static/media/cloud.305b7b7b.svg",
-    "static/media/data_analytics_.f9c8b127.svg": "/Portfolio/static/media/data_analytics_.f9c8b127.svg",
-    "static/media/data_process.8c7ae197.svg": "/Portfolio/static/media/data_process.8c7ae197.svg",
-    "static/media/mountain.54c3adc5.svg": "/Portfolio/static/media/mountain.54c3adc5.svg",
-    "static/media/process_building.921df655.svg": "/Portfolio/static/media/process_building.921df655.svg",
-    "static/media/sun.fafe0d09.svg": "/Portfolio/static/media/sun.fafe0d09.svg"
+    "main.css": "/martinivanalfonso.github.io/static/css/main.ed5e4874.chunk.css",
+    "main.js": "/martinivanalfonso.github.io/static/js/main.807820dd.chunk.js",
+    "main.js.map": "/martinivanalfonso.github.io/static/js/main.807820dd.chunk.js.map",
+    "runtime-main.js": "/martinivanalfonso.github.io/static/js/runtime-main.60adf782.js",
+    "runtime-main.js.map": "/martinivanalfonso.github.io/static/js/runtime-main.60adf782.js.map",
+    "static/js/2.b5933a04.chunk.js": "/martinivanalfonso.github.io/static/js/2.b5933a04.chunk.js",
+    "static/js/2.b5933a04.chunk.js.map": "/martinivanalfonso.github.io/static/js/2.b5933a04.chunk.js.map",
+    "index.html": "/martinivanalfonso.github.io/index.html",
+    "precache-manifest.4f850859ec795db9c87660358048260b.js": "/martinivanalfonso.github.io/precache-manifest.4f850859ec795db9c87660358048260b.js",
+    "service-worker.js": "/martinivanalfonso.github.io/service-worker.js",
+    "static/css/main.ed5e4874.chunk.css.map": "/martinivanalfonso.github.io/static/css/main.ed5e4874.chunk.css.map",
+    "static/js/2.b5933a04.chunk.js.LICENSE.txt": "/martinivanalfonso.github.io/static/js/2.b5933a04.chunk.js.LICENSE.txt",
+    "static/media/cloud.305b7b7b.svg": "/martinivanalfonso.github.io/static/media/cloud.305b7b7b.svg",
+    "static/media/data_analytics_.f9c8b127.svg": "/martinivanalfonso.github.io/static/media/data_analytics_.f9c8b127.svg",
+    "static/media/data_process.8c7ae197.svg": "/martinivanalfonso.github.io/static/media/data_process.8c7ae197.svg",
+    "static/media/mountain.54c3adc5.svg": "/martinivanalfonso.github.io/static/media/mountain.54c3adc5.svg",
+    "static/media/process_building.921df655.svg": "/martinivanalfonso.github.io/static/media/process_building.921df655.svg",
+    "static/media/sun.fafe0d09.svg": "/martinivanalfonso.github.io/static/media/sun.fafe0d09.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.92f295a4.js",
-    "static/js/2.7b55b837.chunk.js",
+    "static/js/runtime-main.60adf782.js",
+    "static/js/2.b5933a04.chunk.js",
     "static/css/main.ed5e4874.chunk.css",
-    "static/js/main.d6b3c0eb.chunk.js"
+    "static/js/main.807820dd.chunk.js"
   ]
 }
