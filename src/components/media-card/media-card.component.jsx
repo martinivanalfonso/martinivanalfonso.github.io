@@ -30,7 +30,7 @@ const ImageContainer = styled.div`
   background-repeat: no-repeat;
 `;
 
-export default function MediaCard({ imageUrl, title, info, link }) {
+export default function MediaCard({ imageUrl, title, info, link, fullScreen }) {
   const refLike = useRef();
 
   useEffect(() => {
@@ -49,7 +49,7 @@ export default function MediaCard({ imageUrl, title, info, link }) {
   });
 
   return (
-    <CardContainer>
+    <CardContainer style={fullScreen ? { maxWidth: '1000px'} : {}}>
       <CardActionArea>
         <ImageContainer imageUrl={imageUrl} />
         <CardContent>

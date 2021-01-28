@@ -14,11 +14,12 @@ import { ReactComponent as Cloud} from './assets/cloud.svg'
 
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import MainProject from './components/main-project/main-project.component';
 
 class App extends React.Component {
   render() {
     return(
-    <Parallax ref={ ref => (this.parallax = ref)} pages={4} >
+    <Parallax ref={ ref => (this.parallax = ref)} pages={5} >
        <ParallaxLayer offset={0} speed={0}  style={{ backgroundColor: '#702632' }} />
        <ParallaxLayer offset={1} speed={0}  style={{ backgroundColor: '#40434E' }} />
        <ParallaxLayer offset={2} speed={0}  style={{ backgroundColor: '#40434E' }} />
@@ -57,14 +58,18 @@ class App extends React.Component {
        </ParallaxLayer>
 
        <ParallaxLayer offset={0} speed={-0.2} onClick={() => this.parallax.scrollTo(1)} style={{ display: 'flex', alignItems: 'center', marginLeft: '10%', cursor: 'pointer' }}>
-        <h1 style={{width: `${ window.innerWidth < 960 ? '80%' :'60%'}`}}>Hello there!<br />I'm a front-end developer, this is my portfolio website</h1>
+        <h1 style={{width: `${ window.innerWidth < 960 ? '80%' :'60%'}`}}>Hello there!<br />I'm a software engineer specialized on front-end and mobile applications, welcome to my portfolio</h1>
        </ParallaxLayer>
-       <ParallaxLayer offset={1} speed={0.3} style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
-        <h1 style={{width: '80%'}}>And these are my projects!</h1>
-        <p style={{width: '80%'}}>Most of them involve Javacript, specifically ReactJS which I find quite an exciting and powerful library</p>
+        <ParallaxLayer offset={1} speed={0.3} style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+        <h1 style={{width: '80%'}}>Featured Project: Gogoal App</h1>
+        <MainProject />  
+        </ParallaxLayer>
+       <ParallaxLayer offset={2} speed={0.3} style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+        <h1 style={{width: '80%'}}>Projects:</h1>
+        <p style={{width: '80%'}}>Most of them involve innovating front end technologies such as React/React Native and are powered by a NodeJs/Golang backend or AWS.</p>
         <ProjectsBlock />
        </ParallaxLayer>
-       <ParallaxLayer offset={3} speed={0.3} style={{ display: 'flex', flexDirection: 'column', paddingLeft: '10%' }}>
+       <ParallaxLayer offset={4} speed={0.3} style={{ display: 'flex', flexDirection: 'column', paddingLeft: '10%' }}>
         <h1 style={{width: '80%'}}>Feel free to contact me here:</h1>
         <h4 style={{width: '80%'}}>martinivanalfonso@gmail.com</h4>
         <div>
