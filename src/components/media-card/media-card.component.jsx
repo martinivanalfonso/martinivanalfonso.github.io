@@ -28,6 +28,7 @@ const ImageContainer = styled.div`
   background-image: ${({ imageUrl }) => `url(${imageUrl})`};
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 `;
 
 export default function MediaCard({ imageUrl, title, info, link, fullScreen }) {

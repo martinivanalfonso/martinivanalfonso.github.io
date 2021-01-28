@@ -19,7 +19,7 @@ const ProjectBlockOneContainer = styled.div`
 const MainProject = () => (
   <ProjectBlockOneContainer>
     <MediaCard
-      imageUrl="https://i.ibb.co/KL369f8/showcase.png"
+      imageUrl="https://i.ibb.co/RbJSVNR/gogoal-cover.png"
       title="GoGoal Mobile App"
       info="Cross platform (IOS & Android) App that provides simple and advanced mathematical functions to help you track your savings and expenses and make smarter decisions about your financial goals. Packed with tons of goal ideas and tips to help you get the most out of your saving."
       link="https://play.google.com/store/apps/details?id=com.gogoal.app"
