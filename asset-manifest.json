@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ed5e4874.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c3002e49.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c3002e49.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.15cabec0.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.15cabec0.js.map",
-    "static/js/2.79c24754.chunk.js": "/Portfolio/static/js/2.79c24754.chunk.js",
-    "static/js/2.79c24754.chunk.js.map": "/Portfolio/static/js/2.79c24754.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.5890a6d3.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5890a6d3.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.92f295a4.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.92f295a4.js.map",
+    "static/js/2.d8320b12.chunk.js": "/Portfolio/static/js/2.d8320b12.chunk.js",
+    "static/js/2.d8320b12.chunk.js.map": "/Portfolio/static/js/2.d8320b12.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.4931b291f8031d70823d1fa99fa2dc9c.js": "/Portfolio/precache-manifest.4931b291f8031d70823d1fa99fa2dc9c.js",
+    "precache-manifest.0dc85279f9f560def2a4ea25fd8a3dcc.js": "/Portfolio/precache-manifest.0dc85279f9f560def2a4ea25fd8a3dcc.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.ed5e4874.chunk.css.map": "/Portfolio/static/css/main.ed5e4874.chunk.css.map",
-    "static/js/2.79c24754.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.79c24754.chunk.js.LICENSE.txt",
+    "static/js/2.d8320b12.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d8320b12.chunk.js.LICENSE.txt",
     "static/media/cloud.305b7b7b.svg": "/Portfolio/static/media/cloud.305b7b7b.svg",
     "static/media/data_analytics_.f9c8b127.svg": "/Portfolio/static/media/data_analytics_.f9c8b127.svg",
     "static/media/data_process.8c7ae197.svg": "/Portfolio/static/media/data_process.8c7ae197.svg",
@@ -20,9 +20,9 @@
     "static/media/sun.fafe0d09.svg": "/Portfolio/static/media/sun.fafe0d09.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.15cabec0.js",
-    "static/js/2.79c24754.chunk.js",
+    "static/js/runtime-main.92f295a4.js",
+    "static/js/2.d8320b12.chunk.js",
     "static/css/main.ed5e4874.chunk.css",
-    "static/js/main.c3002e49.chunk.js"
+    "static/js/main.5890a6d3.chunk.js"
   ]
 }
